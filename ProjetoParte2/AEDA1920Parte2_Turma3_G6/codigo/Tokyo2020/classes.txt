@@ -1,0 +1,11 @@
+Classes:
+
+- Data (int dia, int mes, int ano) - feita (faltam so ajustes)
+
+- Comitiva (vector <Pessoa> pessoas)
+
+- Pessoa(string nome, Data nascimento, int passaporte, string genero, Data chegada, Data partida)
+
+- Atleta : public Pessoa (...) (string modalidade, int peso, int altura, int ranking, vector<string> competicoes, int custo)
+
+- Staff : public Pessoa (...) (string funcao, int custo)

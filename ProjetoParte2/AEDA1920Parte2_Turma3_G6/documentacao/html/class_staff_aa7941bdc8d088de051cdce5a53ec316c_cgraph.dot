@@ -1,0 +1,17 @@
+digraph "Staff::decompose"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Staff::decompose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Decompõe uma linha de um elemento do Staff em \"portugal.txt\" nos argumentos do Staff."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Pessoa::decompose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a46f7c8276fa1ad2bf522e0a5740ab6ad",tooltip="Decompõe os elementos comuns de Atleta e Staff de uma linha em \"portugal.txt\"."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="trim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#adc61ec70963fb00fb3ff6648a60bacaf",tooltip="Remove os espaços de uma dada string (no início e no fim), passada como argumento."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ltrim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#ae4c2068faaefc606cc34672057524393",tooltip="Remove os espaços no início de uma dada string, passada como argumento."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="rtrim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#ac6645a859c82ba752011a510c0702ce0",tooltip="Remove os espaços no fim de uma dada string, passada como argumento."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

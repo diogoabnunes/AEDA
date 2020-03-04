@@ -1,0 +1,48 @@
+digraph "ltrim"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ltrim",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove os espaços no início de uma dada string, passada como argumento."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="trim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8h.html#adc61ec70963fb00fb3ff6648a60bacaf",tooltip="Remove os espaços de uma dada string (no início e no fim), passada como argumento."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Staff::decompose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#aa7941bdc8d088de051cdce5a53ec316c",tooltip="Decompõe uma linha de um elemento do Staff em \"portugal.txt\" nos argumentos do Staff."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Comitiva::Comitiva",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a68700a6fde336c4c54d662fa319c1ed1",tooltip="Esta função coloca no vetor \"pessoas\" todas as pessoas presentes no ficheiro \"portugal...."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Atleta::decompose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_atleta.html#a9103e89f23f9175da52755af968f976f",tooltip="Decompõe os elementos exclusivos de Atleta de uma linha em \"portugal.txt\"."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Pessoa::decompose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a46f7c8276fa1ad2bf522e0a5740ab6ad",tooltip="Decompõe os elementos comuns de Atleta e Staff de uma linha em \"portugal.txt\"."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Medalhas::Medalhas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_medalhas.html#a8340448f75085d2f03606c99b7a69945",tooltip="Cria um objeto da classe Medalhas."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Record::Record",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#af99598fb4eaa0ce0ba92efae4290aa9c",tooltip="Cria um objeto da classe Record, que representa um recorde realizado."];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="string_to_vector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8h.html#a47b3263df66ddefa2fe54ac4f9fd2247",tooltip="Decompõe uma string com elementos separados por vírgula num vetor com esses elementos."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Comitiva::addAtleta",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#ac6da6d49c217dcb87e38d65cf6782bce",tooltip="Esta função adiciona um Atleta à Comitiva."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Comitiva::addPessoa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#aa39a2bd760e619094ce52df5c6d494f3",tooltip="Esta função adiciona uma Pessoa ao vetor \"pessoas\"."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Comitiva::aboutComitiva",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a3781e251409ca01dfdc898e66285c954",tooltip="Esta função mostra as opções para interagir com a Comitiva (adicionar, editar, eliminar,..."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="paginaInicial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8h.html#a96dac07912e4edb4cb4e758e0130cf0d",tooltip="Esta função é o página inicial do programa. Todos os objetivos do projeto se fazem dentro desta funçã..."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node9 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Comitiva::editPessoa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#ad042557732ad35198efd8e71e0e06c5d",tooltip="Esta função edita as informações de uma Pessoa."];
+  Node15 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Comitiva::searchByCompeticoes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#ab0d3484b09e4699e9cae54a8bbe0c8fa",tooltip="Mostra todos os elementos com uma competição específica de um vetor de atletas passado como argumento..."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Comitiva::searchByAtletas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a74ccf493ee22a6ddecc6743145d5f0bc",tooltip="Menu para procura por Atletas."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Comitiva::searchBy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a2c0ae448510e58a00b1ee64d9948b383",tooltip="Apenas chama a função de pesquisa que o utilizador escolher."];
+  Node18 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

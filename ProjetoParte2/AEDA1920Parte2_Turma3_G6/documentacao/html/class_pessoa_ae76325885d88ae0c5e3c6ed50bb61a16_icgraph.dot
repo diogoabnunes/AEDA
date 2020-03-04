@@ -1,0 +1,23 @@
+digraph "Pessoa::getChegada"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Pessoa::getChegada",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Retorna a Data de chegada a Tóquio da Pessoa."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Comitiva::addFuncionario",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a248cb71f1620b15c5063e26033947c5c",tooltip="Esta função adiciona um staff do vetor \"pessoas\", atualizando o ficheiro antes de retornar true."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Comitiva::contratar\l_funcionarioantigo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a506f42d98eec72ededb075b26c10b609",tooltip="Esta função remove um funcionario antigo do ficheiro (staffantigos.txt), adicionando aos funcionarios..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Comitiva::menu_funcionarios",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#aeef0ddc5e27ecc05d29a62ade8bc6607",tooltip="Mostra o menu para operacoes de funcionarios que podem ser feitas."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="paginaInicial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8h.html#a96dac07912e4edb4cb4e758e0130cf0d",tooltip="Esta função é o página inicial do programa. Todos os objetivos do projeto se fazem dentro desta funçã..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Comitiva::editPessoa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#ad042557732ad35198efd8e71e0e06c5d",tooltip="Esta função edita as informações de uma Pessoa."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Comitiva::aboutComitiva",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a3781e251409ca01dfdc898e66285c954",tooltip="Esta função mostra as opções para interagir com a Comitiva (adicionar, editar, eliminar,..."];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

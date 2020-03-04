@@ -1,0 +1,58 @@
+digraph "Records_Tree::searchBy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Records_Tree::searchBy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Apenas chama a função de pesquisa que o utilizador escolher."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Records_Tree::recSearchBy\lCompeticao",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#a1ac2db32304a6afd7915cbf9018c3367",tooltip="Mostra todos os recordes com uma competicao especifica."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BSTItrIn::advance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#ac772d3ebbac748c5f8cf9bc659f2e32c",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="clearInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#a5d555657ce648c1a47abb70f1029589d",tooltip="Limpa o input buffer."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Record::getCompeticao",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ab0768fbc1ea7fe51526bbc50f7cea9de",tooltip="Retorna a competicao do recorde."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="BSTItrIn::isAtEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#a6f9a43217862c263a9bf15b9a08b889a",tooltip=" "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BSTItrIn::retrieve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#a434375a2d263bf132ab3c4ac878af8ef",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Records_Tree::recSearchByData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#a061683a8aa3ae1d1e3cfad0bceb3de7e",tooltip="Mostra todos os recordes com uma data especifica."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Record::getData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a6441fec08294ea2bcc3798da9a02b1d1",tooltip="Retorna a data do recorde."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Records_Tree::recSearchBy\lLocal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#a02f62ea0ec0501efb340df851a2cfae7",tooltip="Mostra todos os recordes com um local especifico."];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Record::getNome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a88274b00e661d134e022f097647b107c",tooltip="Retorna o nome do recordista."];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Records_Tree::recSearchBy\lModalidade",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#a56020a44310dad4d0b61db8bde183a82",tooltip="Mostra todos os recordes com uma modalidade especifica."];
+  Node12 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Record::getModalidade",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a95732c89d48254b7dac76e53f0a3e686",tooltip="Retorna a modalidade do recorde."];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Records_Tree::recSearchByNome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#a900d980712350de507844074610d2f76",tooltip="Mostra todos os recordes com um nome especifico."];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Records_Tree::recSearchByTipo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#a988f167849098895d845769bd2971944",tooltip="Mostra todos os recordes com um tipo especifico."];
+  Node15 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Record::getTipo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a6883f02eac0927dcc79732eeddb41d2f",tooltip="Retorna o tipo (Tempo, Distancia ou Pontuacao) de um Record."];
+  Node15 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,30 @@
+digraph "Comitiva::addFuncionario"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Comitiva::addFuncionario",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Esta função adiciona um staff do vetor \"pessoas\", atualizando o ficheiro antes de retornar true."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Pessoa::getChegada",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#ae76325885d88ae0c5e3c6ed50bb61a16",tooltip="Retorna a Data de chegada a Tóquio da Pessoa."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Staff::getCusto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#ab2bba8d8697135ccb816e75224abc703",tooltip="Retorna o custo diário de um elemento do staff."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Staff::getEspecialidade",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#a3e25089a96d8b41db3ea17e293beff37",tooltip="Retorna a especialidade de um elemento do Funcionario."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Staff::getFuncao",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#ac021c74741a82b1d2d071fe898f51eca",tooltip="Retorna a função de um elemento do Staff."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Pessoa::getGenero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a8aea0b8ef532aa302cfca5efd1b9b8ec",tooltip="Retorna o género da Pessoa."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Staff::getHorasIndisp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#a9c305130bb6e53cb3897f64e58244e39",tooltip="Retorna o número de horas de indisponibilidade de um elemento do Funcionario."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Pessoa::getNascimento",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a6ef3374dabde057346b03418dc6e0b33",tooltip="Retorna a data de nascimento da Pessoa."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Pessoa::getNome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a8d551db3b19e1f07022adb3793cb8ed7",tooltip="Retorna o nome da Pessoa."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Pessoa::getPartida",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a6a9341aac479ff030122a81972affd63",tooltip="Retorna a Data de partida de Tóquio da Pessoa."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Pessoa::getPassaporte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a798028470c4bc18c807629c0abbade06",tooltip="Retorna o número de passaporte da Pessoa."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Comitiva::refreshComitiva",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comitiva.html#a16f8917da3dcd3318a7d7e267ec85d3c",tooltip="Esta função atualiza o ficheiro de pessoas (portugal.txt) no fim do programa."];
+}

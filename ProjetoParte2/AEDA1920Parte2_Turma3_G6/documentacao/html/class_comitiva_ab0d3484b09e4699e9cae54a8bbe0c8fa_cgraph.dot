@@ -1,0 +1,18 @@
+digraph "Comitiva::searchByCompeticoes"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Comitiva::searchByCompeticoes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Mostra todos os elementos com uma competição específica de um vetor de atletas passado como argumento..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clearInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#a5d555657ce648c1a47abb70f1029589d",tooltip="Limpa o input buffer."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="string_to_vector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#a47b3263df66ddefa2fe54ac4f9fd2247",tooltip="Decompõe uma string com elementos separados por vírgula num vetor com esses elementos."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="trim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#adc61ec70963fb00fb3ff6648a60bacaf",tooltip="Remove os espaços de uma dada string (no início e no fim), passada como argumento."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ltrim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#ae4c2068faaefc606cc34672057524393",tooltip="Remove os espaços no início de uma dada string, passada como argumento."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="rtrim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#ac6645a859c82ba752011a510c0702ce0",tooltip="Remove os espaços no fim de uma dada string, passada como argumento."];
+}

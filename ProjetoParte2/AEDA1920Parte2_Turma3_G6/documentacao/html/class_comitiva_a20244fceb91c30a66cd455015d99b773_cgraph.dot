@@ -1,0 +1,16 @@
+digraph "Comitiva::procuraTreinador"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Comitiva::procuraTreinador",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Esta função procura um treinador na heap 'funcionarios' e aumenta suas horas de indisponibilidade."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Staff::getEspecialidade",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#a3e25089a96d8b41db3ea17e293beff37",tooltip="Retorna a especialidade de um elemento do Funcionario."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Staff::getHorasIndisp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#a9c305130bb6e53cb3897f64e58244e39",tooltip="Retorna o número de horas de indisponibilidade de um elemento do Funcionario."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Pessoa::getNome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pessoa.html#a8d551db3b19e1f07022adb3793cb8ed7",tooltip="Retorna o nome da Pessoa."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Staff::increaseHorasIndisp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#adeee61d9f206c589f88f855a73a96b25",tooltip="Esta função incrementa um número de horas de indisponibilidade a um Staff."];
+}

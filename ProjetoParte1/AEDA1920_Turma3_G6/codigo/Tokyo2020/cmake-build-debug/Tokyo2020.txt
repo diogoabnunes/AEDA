@@ -1,0 +1,46 @@
+Tema 7 – Delegação Olímpica de Portugal - Tóquio 2020 (Parte 1)
+Pretende-se construir uma aplicação para gerir a participação portuguesa nos Jogos Olímpicos de Verão de 2020
+(Tóquio 2020). Este evento multiesportivo será realizado no segundo semestre de 2020, na região metropolitana
+de Tóquio, Japão. Portugal vai competir em diversas modalidades, sendo que as principais modalidades em que
+tem competido nos últimos anos são: Atletismo, Badminton, Canoagem, Ciclismo, Futebol, Ginástica, Golfe,
+Hipismo, Judo, Natação, Taekwondo, Ténis, Ténis de mesa, Tiro, Triatlo e Vela.
+
+
+A Delegação Olímpica de Portugal será constituída por um conjunto de atletas (70-100), que podem ser homens
+ou mulheres. A delegação incluirá ainda um conjunto de outras pessoas, cada qual com um tipo (função). Para
+todos interessa saber o nome, data de nascimento e número do passaporte. Para os atletas interessa saber a
+modalidade respetiva, peso, altura, ranking mundial e informação das competições em que vão participar. Para
+cada elemento interessa ainda saber a data de chegada e data de partida de Tóquio. Cada elemento da
+delegação tem um custo diário de participação, sendo este custo diferente para os atletas e para cada tipo de
+funcionário. Interessa saber o custo diário e total da delegação.
+
+
+Cada atleta compete numa única modalidade podendo no entanto competir em diversas competições nessa
+modalidade (ex: na modalidade atletismo, 100mts, 200mts, ...), e, em cada competição, em diversas provas
+(eliminatória1, meia final, final,..) espalhadas ao longo dos dias de competição. Existem ainda modalidades
+coletivas em que todos os atletas competem integrados ou na equipa nacional (exemplo: futebol masculino) ou
+integrados numa equipa específica (exemplo Vela 49er, equipa de dois elementos). Pretende-se ainda ter
+informação do historial de cada atleta ou equipa nacionais nas competições respetivas.
+
+
+Interessa saber, para cada competição de cada modalidade, quais os atletas portugueses inscritos, quais as
+respetivas provas, quais os resultados obtidos em cada prova e quais os resultados finais obtidos, respetiva
+posição final e ocorrência de medalha.
+
+
+Embora não se pretenda que o sistema realize a gestão global dos jogos olímpicos, a delegação portuguesa
+pretende que seja incluída no sistema a contabilização de todas as medalhas olímpicas, i.e. saber para cada
+competição qual o atleta/equipa e respetivo país que obtiveram as medalhas de ouro, prata e bronze. Esta
+informação deve poder ser consultada, indicando os países mais medalhados ordenados por ordem decrescente
+de medalhas de ouro ou de total de medalhas.
+
+
+O sistema deverá ser capaz de apresentar, diariamente, uma ficha com a informação de todas as provas em que
+os atletas portugueses participam. Deve também permitir consultar o histórico de todas as provas em que os
+atletas portugueses participaram com informação estatística diversa. Pretende-se que seja também capaz de
+pesquisar por atleta e apresentar a informação detalhada de cada atleta (dados pessoais e históricos e
+resultados nas provas destes jogos olímpicos).
+
+
+Implemente também outras funcionalidades que considere relevantes, para além dos requisitos globais
+enunciados na página inicial.

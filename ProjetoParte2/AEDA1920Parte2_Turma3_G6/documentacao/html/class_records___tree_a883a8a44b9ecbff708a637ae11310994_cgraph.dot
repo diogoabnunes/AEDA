@@ -1,0 +1,38 @@
+digraph "Records_Tree::orderBy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Records_Tree::orderBy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Apenas chama a função de ordenacao que o utilizador escolher."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Records_Tree::recOrderByData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#aff2f284bac4503369cf542f07e8c6b20",tooltip="Mostra todos os recordes ordenados pela data."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BSTItrIn::advance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#ac772d3ebbac748c5f8cf9bc659f2e32c",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="compareDatas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_records_8cpp.html#a2fd2d26eca7d0fb390f9a0d17e69bd73",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Record::getData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a6441fec08294ea2bcc3798da9a02b1d1",tooltip="Retorna a data do recorde."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="BSTItrIn::isAtEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#a6f9a43217862c263a9bf15b9a08b889a",tooltip=" "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BSTItrIn::retrieve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#a434375a2d263bf132ab3c4ac878af8ef",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Records_Tree::recOrderBy\lLocal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#abdc192f72b9b585ad35bec5df60693d6",tooltip="Mostra todos os recordes ordenados pelo local."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="compareLocais",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_records_8cpp.html#a259894f5a394557895aa76830b47a180",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Record::getLocal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a0bb773a9a33b3907b879e51983ff8885",tooltip="Retorna o local do recorde."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Records_Tree::recOrderByNome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_records___tree.html#a5665acc900b622c331df14e36debea5c",tooltip="Mostra todos os recordes ordenados pelo nome."];
+  Node11 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="compareNomes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_records_8cpp.html#aa114727e1d7e09fd891b308b6d32dc13",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Record::getNome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a88274b00e661d134e022f097647b107c",tooltip="Retorna o nome do recordista."];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

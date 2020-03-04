@@ -1,0 +1,16 @@
+digraph "Medalhas::showMedalTable"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Medalhas::showMedalTable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Imprime a tabela de medalhas."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="compareMedals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_medalhas_8cpp.html#a6d7aa67f6e0d6c6fee733060106bfd84",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Pais::getBronze",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pais.html#a3c0c891c0fb2009bee95f965e9da0202",tooltip="Retorna o número de medalhas de bronze do país objeto da classe Pais."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Pais::getGold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pais.html#aecf6f82be9a5e2f396fff4244e12a84a",tooltip="Retorna o número de medalhas de ouro do país objeto da classe Pais."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Pais::getSilver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pais.html#a05a55474b660e2a1f8517f1840615591",tooltip="Retorna o número de medalhas de prata do país objeto da classe Pais."];
+}

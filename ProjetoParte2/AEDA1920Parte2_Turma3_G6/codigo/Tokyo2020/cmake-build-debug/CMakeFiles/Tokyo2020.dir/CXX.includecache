@@ -1,0 +1,184 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Atleta.cpp
+Atleta.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Atleta.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Atleta.h
+Pessoa.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Pessoa.h
+iostream
+-
+vector
+-
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Comitiva.cpp
+Comitiva.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Comitiva.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Comitiva.h
+vector
+-
+queue
+-
+iostream
+-
+string
+-
+fstream
+-
+algorithm
+-
+unordered_set
+-
+Pessoa.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Pessoa.h
+Atleta.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Atleta.h
+Staff.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Staff.h
+Data.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Data.h
+Exception.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Exception.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Data.cpp
+Data.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Data.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Data.h
+iostream
+-
+string
+-
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Exception.cpp
+Exception.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Exception.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Exception.h
+string
+-
+iostream
+-
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Medalhas.cpp
+Medalhas.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Medalhas.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Medalhas.h
+iostream
+-
+iomanip
+-
+fstream
+-
+vector
+-
+utils.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/utils.h
+Exception.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Exception.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Pessoa.cpp
+Pessoa.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Pessoa.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Pessoa.h
+iostream
+-
+string
+-
+Data.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Data.h
+utils.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/utils.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Records.cpp
+Records.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Records.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Records.h
+bst.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/bst.h
+algorithm
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/algorithm
+fstream
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/fstream
+iostream
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/iostream
+Atleta.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Atleta.h
+Exception.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Exception.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Staff.cpp
+Staff.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Staff.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Staff.h
+iostream
+-
+unordered_set
+-
+Pessoa.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Pessoa.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/bst.h
+iostream
+-
+stack
+-
+queue
+-
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/main.cpp
+iostream
+-
+Comitiva.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Comitiva.h
+Medalhas.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Medalhas.h
+Records.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Records.h
+menu.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/menu.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/menu.cpp
+menu.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/menu.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/menu.h
+iostream
+-
+Comitiva.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Comitiva.h
+utils.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/utils.h
+Exception.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Exception.h
+Medalhas.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Medalhas.h
+Records.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Records.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/utils.cpp
+utils.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/utils.h
+
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/utils.h
+vector
+-
+string
+-
+algorithm
+-
+Pessoa.h
+C:/Users/Diogo Nunes/Desktop/FEUP/Ano 2/AEDA/ProjetoParte2/AEDA1920Parte2_Turma3_G6/codigo/Tokyo2020/Pessoa.h
+

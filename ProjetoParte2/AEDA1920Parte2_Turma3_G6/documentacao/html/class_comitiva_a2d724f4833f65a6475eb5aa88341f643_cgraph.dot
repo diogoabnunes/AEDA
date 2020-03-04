@@ -1,0 +1,16 @@
+digraph "Comitiva::elimPessoa"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Comitiva::elimPessoa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Esta função elimina uma Pessoa do vetor \"pessoas\"."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clearInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#a5d555657ce648c1a47abb70f1029589d",tooltip="Limpa o input buffer."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NumeroInvalido::getMSG",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_numero_invalido.html#a5c448d3329c6ac238680652aeeaef4c7",tooltip="Esta função retorna a mensagem de erro de número inválido."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TipoInvalido::getMSG",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tipo_invalido.html#a2ab2856e2ba29b748798c49216ce0242",tooltip="Esta função retorna a mensagem de erro de tipo inválido."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PassaporteInexistente\l::getMSG",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_passaporte_inexistente.html#ad7979791a4d7344befa52c364497f3eb",tooltip="Esta função retorna a mensagem de erro de passaporte inexistente."];
+}

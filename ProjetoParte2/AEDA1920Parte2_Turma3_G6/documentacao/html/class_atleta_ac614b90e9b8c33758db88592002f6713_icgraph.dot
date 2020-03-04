@@ -1,0 +1,10 @@
+digraph "Atleta::getModalidade"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Atleta::getModalidade",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Retorna a modalidade do Atleta."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Atleta::show",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_atleta.html#acc28f91bcd65e0367ed44dce1dce79bc",tooltip="Imprime a informação detalhada de um Atleta."];
+}

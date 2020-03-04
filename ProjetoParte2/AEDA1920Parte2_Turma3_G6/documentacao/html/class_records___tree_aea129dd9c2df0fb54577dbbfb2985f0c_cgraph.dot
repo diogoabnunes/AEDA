@@ -1,0 +1,30 @@
+digraph "Records_Tree::addResult"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Records_Tree::addResult",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Adiciona um resultado e, se necessario, atualiza a BST \"recordes\"."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BSTItrIn::advance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#ac772d3ebbac748c5f8cf9bc659f2e32c",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clearInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html#a5d555657ce648c1a47abb70f1029589d",tooltip="Limpa o input buffer."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Record::getCompeticao",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ab0768fbc1ea7fe51526bbc50f7cea9de",tooltip="Retorna a competicao do recorde."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Record::getModalidade",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a95732c89d48254b7dac76e53f0a3e686",tooltip="Retorna a modalidade do recorde."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Record::getRealRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a500f1da71471eec1e4dd1e58ec2ae46d",tooltip="Retorna o recorde do objeto da classe Record."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Record::getTipo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a6883f02eac0927dcc79732eeddb41d2f",tooltip="Retorna o tipo (Tempo, Distancia ou Pontuacao) de um Record."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="BST::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#aea895bc48c9533dfcd2e01d227e01f33",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="BSTItrIn::isAtEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#a6f9a43217862c263a9bf15b9a08b889a",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="BST::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#a63a3529c7070687c4a3e5a417c625715",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="BSTItrIn::retrieve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#a434375a2d263bf132ab3c4ac878af8ef",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Record::setCompeticao",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a5b232829cb68eeed2f68d795fa4bfa82",tooltip="Esta função atribui uma competicao a um recorde (apenas para resolução de um erro)."];
+}
